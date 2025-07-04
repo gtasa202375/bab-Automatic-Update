@@ -1,0 +1,10 @@
+一.准备工作
+1.Cloudflare账号https://dash.cloudflare.com/login
+2代码地址
+:https://github.com/xiaobaikeji831/cfD...
+二.Cloudflare项目设置
+添加变量:
+UUID：可以使用https://1024tools.com/uuid(UUid在线生成)
+PROXY_IP：可从https://www.nslookup.io/domains/cdn.xn--b6gac.eu.org/dns-records/（随机代理IP生成）获取
+TR_PASS：填写复杂字符作为密码
+最后绑定一个KV空间，项目就设置好了然后重试部署。
